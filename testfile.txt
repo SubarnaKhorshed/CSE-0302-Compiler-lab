@@ -1,0 +1,11 @@
+/* Functions */
+void check_comment (char) ;  // checks for both types of comments, then passes on control to below comments
+void block_comment () ;   //  handles block or multiline comments
+void single_comment () ;   // handles single line comments
+
+/* 2 file pointers - 1st is for the file in which we check for comments,
+and 2nd is the file in which we copy the code after removing comments  */
+FILE *fp , *fp2;
+
+this is a test file
+testing another
